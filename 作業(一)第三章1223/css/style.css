@@ -71,14 +71,33 @@ table {
 }
 .content p a:hover{
 	color: pink;
+	font-size: 60px;
+}
+.content p a:active{
+	color: blue;
 	font-size: 30px;
 }
 .content h2{
+	width: 1000px;
+	height: 80px;
 	font-size: 30px;
+	border-top: 5px solid blue;
 	border-bottom: 5px solid blue;
+	border-left: 5px dashed blue;
+	border-right: 5px dotted blue;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	padding-left: 20px;
+	line-height: 80px;
 }
 .ul2 li{
 	text-decoration: line-through;
+}
+.ul3{
+	text-align: right;
+}
+.ul3 li{
+	display: inline;
+	border: 2px solid pink;
+	margin-right: 60px;
 }
