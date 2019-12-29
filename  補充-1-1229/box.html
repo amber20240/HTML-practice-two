@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <h2>(一)有無使用box-sizing: border-box的差別</h2>
+        <h3>1.左邊有使用,右邊沒有使用</h3>
+        <div class="box1">
+            <div class="box2"></div>
+        </div>
+        <div class="box3">
+            <div class="box4"></div>
+        </div>
+        <div class="clearfix"></div>
+        <h3>(二)使用floatclear</h3>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="clearfix"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="clearfix"></div>
+        <h3>（三）使用position定位(relative / absolute) </h3>
+        <h3>1.如果沒有特定對象做為relative則會把整個網頁當為父元素（請看網頁右上角的box）</h3>
+        <div class="box9"></div>
+        <h3>2.以下示範是有特定的relative -正的</h3>
+        <div class="box10">
+            <div class="box11"></div>
+        </div>
+        <h3>3.以下示範是有特定的relative -負的</h3>
+        <div class="box12">
+            <div class="box13"></div>
+        </div>
+        <h3>(四)z-index</h3>
+        <div class="box14">
+            <div class="box15"></div>
+            <div class="box16"></div>
+            <div class="box17"></div>
+        </div>
+    </div>
+</body>
+</html>
