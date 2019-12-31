@@ -153,3 +153,9 @@ table {
     bottom: 0;
     z-index: 1;
 }
+.goodbox{
+    width: 800px;
+    height: 250px;
+    border: 2px solid yellow;
+    background: url(../img/images.png) no-repeat yellow top right;
+}
