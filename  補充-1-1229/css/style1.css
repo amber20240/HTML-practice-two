@@ -159,3 +159,9 @@ table {
     border: 2px solid yellow;
     background: url(../img/images.png) no-repeat yellow top right;
 }
+.goodbox1,.goodbox2,.goodbox3,.goodbox4,.goodbox5{
+    min-width: 60px;
+    min-height: 60px;
+    padding: 10px;
+    border: 2px solid blue;
+}
