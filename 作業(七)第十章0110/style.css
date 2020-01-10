@@ -244,11 +244,13 @@ label{
 select{
     width: 200px;
     height: 20px;
+    margin-top:10px;
+
 }
 .footer{
     height: 85px;
     background:yellow;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .footer img{
     width: 120px;
